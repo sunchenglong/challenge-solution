@@ -57,6 +57,7 @@ public class ImmutableQueue<T> implements Queue<T> {
         return headNode.element;
     }
 
+    // For Unit Test
     public List<T> transList() {
         QueueNode<T> queueNode = new QueueNode<T>();
         queueNode = headNode;
